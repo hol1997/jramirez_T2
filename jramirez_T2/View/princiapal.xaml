@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="jramirez_T2.View.princiapal"
+             Title="princiapal">
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Label Text="Nombre:"/>
+        <Entry x:Name="nombreEntry" Placeholder="Ingrese su nombre"/>
+
+        <Label Text="Estudiante:"/>
+        <Picker x:Name="estudiantePicker" Title="Seleccione un compañero">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Juan</x:String>
+                    <x:String>María</x:String>
+                    <x:String>Pedro</x:String>
+                    <x:String>Luisa</x:String>
+                    <x:String>Carlos</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <!-- Parcial 1 -->
+
+        <Label Text="Nota Seguimiento 1 (sobre 10):"/>
+        <Entry x:Name="seguimiento1Entry" Keyboard="Numeric" Placeholder="0 - 10"/>
+
+        <Label Text="Examen 1 (sobre 10):"/>
+        <Entry x:Name="examen1Entry" Keyboard="Numeric" Placeholder="0 - 10"/>
+
+        <!-- Parcial 2 -->
+        <Label Text="Nota Seguimiento 2 (sobre 10):"/>
+        <Entry x:Name="seguimiento2Entry" Keyboard="Numeric" Placeholder="0 - 10"/>
+
+        <Label Text="Examen 2 (sobre 10):"/>
+        <Entry x:Name="examen2Entry" Keyboard="Numeric" Placeholder="0 - 10"/>
+
+        <Label Text="Fecha:"/>
+        <DatePicker x:Name="FechaPicker"></DatePicker>
+
+        <Button Text="Calcular Notas" Clicked="Button_Clicked"></Button>
+
+    </VerticalStackLayout>
+</ContentPage>
