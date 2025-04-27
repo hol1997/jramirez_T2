@@ -9,7 +9,9 @@ public partial class princiapal : ContentPage
 
     private void Button_Clicked(object sender, EventArgs e)
     {
-        string nombre = nombreEntry.Text?.Trim() ?? "Estudiante";
+         string dato= estudiantePicker.Items[estudiantePicker.SelectedIndex].ToString();
+
+         string FechaPicker = DateTime.Now.ToLongDateString();
 
         double.TryParse(seguimiento1Entry.Text, out double seguimiento1);
         double.TryParse(examen1Entry.Text, out double examen1);
