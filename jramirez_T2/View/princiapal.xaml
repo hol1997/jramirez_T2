@@ -4,9 +4,6 @@
              x:Class="jramirez_T2.View.princiapal"
              Title="princiapal">
     <VerticalStackLayout Padding="20" Spacing="15">
-        <Label Text="Nombre:"/>
-        <Entry x:Name="nombreEntry" Placeholder="Ingrese su nombre"/>
-
         <Label Text="Estudiante:"/>
         <Picker x:Name="estudiantePicker" Title="Seleccione un compañero">
             <Picker.ItemsSource>
