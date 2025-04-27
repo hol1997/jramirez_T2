@@ -19,17 +19,17 @@
 
         <!-- Parcial 1 -->
 
-        <Label Text="Nota Seguimiento 1 (sobre 10):"/>
+        <Label Text="Nota Seguimiento 1 (sobre 10):" FontAttributes="Bold"/>
         <Entry x:Name="seguimiento1Entry" Keyboard="Numeric" Placeholder="0 - 10"/>
 
-        <Label Text="Examen 1 (sobre 10):"/>
+        <Label Text="Examen 1 (sobre 10):" FontAttributes="Bold"/>
         <Entry x:Name="examen1Entry" Keyboard="Numeric" Placeholder="0 - 10"/>
 
         <!-- Parcial 2 -->
-        <Label Text="Nota Seguimiento 2 (sobre 10):"/>
+        <Label Text="Nota Seguimiento 2 (sobre 10):" FontAttributes="Bold"/>
         <Entry x:Name="seguimiento2Entry" Keyboard="Numeric" Placeholder="0 - 10"/>
 
-        <Label Text="Examen 2 (sobre 10):"/>
+        <Label Text="Examen 2 (sobre 10):" FontAttributes="Bold"/>
         <Entry x:Name="examen2Entry" Keyboard="Numeric" Placeholder="0 - 10"/>
 
         <Label Text="Fecha:"/>
