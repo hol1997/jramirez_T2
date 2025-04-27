@@ -24,7 +24,7 @@ public partial class princiapal : ContentPage
 
         string estado = notaFinal >= 6.0 ? "Aprobado " : "Reprobado ";
 
-        string mensaje = $"Nombre: {nombre}\n" +
+        string mensaje = $"Nombre: {dato}\n" +
                     $"Fehca:{FechaPicker:F2}\n"+
                     $"Nota Parcial 1: {parcial1:F2}\n" +
                     $"Nota Parcial 2: {parcial2:F2}\n" +
